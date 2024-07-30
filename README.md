@@ -50,7 +50,7 @@ Prompts for a new name if a duplicate is found.
 Limits the number of attempts to add a unique candidate name.
 Code Reference:
 
-cpp
+**Code:**
 
     void addCandidate(string candidateName) {
     const int maxAttempts = 3;
@@ -88,7 +88,7 @@ Allows each voter to vote by selecting a candidate number.
 Ensures only valid votes are counted by verifying voter input.
 Code Reference:
 
-cpp
+**Code:**
 
     void conductElection() {
     int numVoters;
@@ -129,7 +129,7 @@ Implementation:
 Method displayCandidates() outputs the list of candidates with their assigned numbers.
 Code Reference:
 
-cpp
+**Code:**
 
     void displayCandidates() const {
     cout << "\nCandidates:\n";
@@ -148,7 +148,7 @@ Method displayResults() outputs the number of votes each candidate received.
 Determines the winner or handles a tie by displaying all candidates with the highest votes.
 Code Reference:
 
-cpp
+**Code:**
 
     void displayResults() const {
     cout << endl;
@@ -185,13 +185,7 @@ cpp
     }
 
 
-###  Project Structure
 
-       # Election Management System
-
-## Overview
-
-The Election Management System is a C++ application designed to manage and conduct elections. It allows users to register candidates, cast votes anonymously, and display election results, including handling ties. The system features authentication for secure access, unique candidate registration, and user-friendly voting and result display functionalities.
 
 ## Project Structure
 
